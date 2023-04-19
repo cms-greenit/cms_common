@@ -1,0 +1,31 @@
+package cc.greenit.cms.common.dto.booking;
+
+import lombok.Data;
+
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
+
+/**
+ * packageName    : cc.greenit.cms.domain.booking.dto
+ * fileName       : DeleteReservationRequestDTO
+ * author         : zaid
+ * date           : 2023/04/18
+ * description    :
+ */
+@Data
+public class DeleteReservationRequestDTO {
+    @NotEmpty
+    private String companyId;
+    @NotEmpty
+    private String dateId;
+    @NotEmpty
+    private String timeId;
+    @NotEmpty
+    private String courseId;
+    @NotEmpty
+    private String rsvNo;
+    private String agencyCode;
+    @Size(max = 50)
+    private String reason;
+    private String ip;
+}
