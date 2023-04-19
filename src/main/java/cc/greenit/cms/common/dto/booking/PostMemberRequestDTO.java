@@ -1,6 +1,6 @@
-package cc.greenit.cms.domain.booking.dto;
+package cc.greenit.cms.common.dto.booking;
 
-import cc.greenit.cms.domain.common.Gender;
+import cc.greenit.cms.common.dto.common.Gender;
 import lombok.Data;
 
 import javax.validation.constraints.NotEmpty;

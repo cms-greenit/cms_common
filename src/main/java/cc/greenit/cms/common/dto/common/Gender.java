@@ -1,4 +1,12 @@
-package cc.greenit.cms.domain.common;
+package cc.greenit.cms.common.dto.common;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+import java.util.Collections;
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * packageName    : cc.greenit.cms.domain.booking.Entity
