@@ -24,6 +24,7 @@ public class GetTimeListResponseDTO {
     private String erpRsvNo;
     private String erpRsvPhone;
     private String isErpBlock;
+    private String isErpEmpty;
     private String agencyType;
     private String agencyName;
 }

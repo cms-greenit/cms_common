@@ -14,6 +14,7 @@ import java.util.List;
  */
 /** 동반자 조회 Response  */
 @Data
+@Builder
 public class GetMemberResponseDTO {
     private String dateId;
     private String courseId;

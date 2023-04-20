@@ -13,7 +13,7 @@ import lombok.Data;
 @Data
 public class GetCalendarResponseDTO {
     private String dateId;
-    private String weekDayType;
+    private String weekdayType;
     private String bookingOpenDate;
     private String bookingOpenTime;
     private String homepageOpenDate;
