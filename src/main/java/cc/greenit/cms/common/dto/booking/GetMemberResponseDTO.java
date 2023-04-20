@@ -1,7 +1,9 @@
 package cc.greenit.cms.common.dto.booking;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
@@ -15,6 +17,8 @@ import java.util.List;
 /** 동반자 조회 Response  */
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class GetMemberResponseDTO {
     private String dateId;
     private String courseId;
