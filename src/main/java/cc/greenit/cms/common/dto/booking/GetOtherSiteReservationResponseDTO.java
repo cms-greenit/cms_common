@@ -9,8 +9,9 @@ import lombok.Data;
  * date           : 2023/04/19
  * description    :
  */
+/** 예약 조회(홈페이지) Response  */
 @Data
-public class OtherSiteReservationResponseDTO {
+public class GetOtherSiteReservationResponseDTO {
     private String rsvNo;
     private String companyId;
     private String dateId;

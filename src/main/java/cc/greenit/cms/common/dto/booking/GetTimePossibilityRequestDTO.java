@@ -12,9 +12,10 @@ import javax.validation.constraints.NotEmpty;
  * date           : 2023/04/18
  * description    :
  */
+/** 예약 가능 여부 조회 Request  */
 @Data
 @Builder
-public class TimePossibilityRequestDTO {
+public class GetTimePossibilityRequestDTO {
     @NotEmpty
     private String companyId;
     @NotEmpty

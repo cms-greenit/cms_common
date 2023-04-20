@@ -12,8 +12,9 @@ import javax.validation.constraints.NotEmpty;
  * date           : 2023/04/18
  * description    :
  */
+/** 골프장 회원 여부 조회 RequestDTO */
 @Data
-public class GolfMemberRequestDTO {
+public class GetGolfMemberRequestDTO {
     @NotEmpty
     private String companyId;
     @NotEmpty
@@ -21,7 +22,7 @@ public class GolfMemberRequestDTO {
     @NotEmpty
     private String memberPhone;
     @Builder
-    public GolfMemberRequestDTO(String companyId, String memberName, String memberPhone){
+    public GetGolfMemberRequestDTO(String companyId, String memberName, String memberPhone){
         this.companyId = companyId;
         this.memberName = memberName;
         this.memberPhone = memberPhone;

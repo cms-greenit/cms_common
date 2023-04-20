@@ -9,8 +9,9 @@ import lombok.Data;
  * date           : 2023/04/19
  * description    :
  */
+/** 현재오픈타임 조회 Response  */
 @Data
-public class OpenTimeListResponseDTO {
+public class GetOpenTimeListResponseDTO {
     private String companyId;
     private String dateId;
     private String timeId;

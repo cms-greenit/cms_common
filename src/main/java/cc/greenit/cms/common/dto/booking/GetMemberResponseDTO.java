@@ -12,8 +12,9 @@ import java.util.List;
  * date           : 2023/04/18
  * description    :
  */
+/** 동반자 조회 Response  */
 @Data
-public class MemberResponseDTO {
+public class GetMemberResponseDTO {
     private String dateId;
     private String courseId;
     private String timeId;

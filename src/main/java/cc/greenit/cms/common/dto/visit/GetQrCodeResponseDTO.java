@@ -11,6 +11,7 @@ import java.time.LocalDateTime;
  * date           : 2023/04/18
  * description    :
  */
+/** QR코드 생성 Response */
 @Data
 public class GetQrCodeResponseDTO {
     private String qrCode;

@@ -9,8 +9,9 @@ import lombok.Data;
  * date           : 2023/04/18
  * description    :
  */
+/** 예약가능 날짜 조회 Response  */
 @Data
-public class CalendarResponseDTO {
+public class GetCalendarResponseDTO {
     private String dateId;
     private String weekDayType;
     private String bookingOpenDate;

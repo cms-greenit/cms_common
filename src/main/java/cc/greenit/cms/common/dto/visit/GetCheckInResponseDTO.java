@@ -10,6 +10,7 @@ import lombok.Data;
  * date           : 2023/04/18
  * description    :
  */
+/** 체크인 조회 Response */
 @Data
 public class GetCheckInResponseDTO {
     private String companyId;

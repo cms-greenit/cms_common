@@ -9,7 +9,8 @@ import lombok.Data;
  * date           : 2023/04/18
  * description    :
  */
+/** 골프장 회원 여부 조회 Response */
 @Data
-public class GolfMemberResponseDTO {
+public class GetGolfMemberResponseDTO {
     private String golfMemberNum;
 }

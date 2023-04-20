@@ -12,8 +12,10 @@ import javax.validation.constraints.Size;
  * date           : 2023/04/18
  * description    :
  */
+
+/** 예약가능 날짜 조회 Request  */
 @Data
-public class CalendarRequestDTO {
+public class GetCalendarRequestDTO {
     @NotEmpty
     private String companyId;
     @Size(min = 8, max = 8)

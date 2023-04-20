@@ -12,8 +12,9 @@ import javax.validation.constraints.NotEmpty;
  * date           : 2023/04/18
  * description    :
  */
+/** 예약 취소 가능 여부 조회 Request  */
 @Data
-public class TimeCancelPossibilityRequestDTO {
+public class GetTimeCancelPossibilityRequestDTO {
     @NotEmpty
     private String companyId;
     @NotEmpty
@@ -28,7 +29,7 @@ public class TimeCancelPossibilityRequestDTO {
     private String rsvNo;
 
     @Builder
-    public TimeCancelPossibilityRequestDTO(String companyId, String dateId, String courseId, String timeId, String rsvNo, String agencyCode){
+    public GetTimeCancelPossibilityRequestDTO(String companyId, String dateId, String courseId, String timeId, String rsvNo, String agencyCode){
         this.companyId = companyId;
         this.dateId = dateId;
         this.courseId = courseId;

@@ -9,6 +9,7 @@ import lombok.Data;
  * date           : 2023/04/19
  * description    :
  */
+/** 동반자 등록 Response  */
 @Data
 public class PostMemberResponseDTO {
     private String memberSeq;

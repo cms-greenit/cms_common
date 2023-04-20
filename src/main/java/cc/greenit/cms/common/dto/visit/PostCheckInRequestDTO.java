@@ -13,8 +13,9 @@ import javax.validation.constraints.Size;
  * date           : 2023/04/18
  * description    :
  */
+/** 체크인 Request */
 @Data
-public class CheckInRequestDTO {
+public class PostCheckInRequestDTO {
     @NotEmpty
     private String companyId;
     @NotEmpty

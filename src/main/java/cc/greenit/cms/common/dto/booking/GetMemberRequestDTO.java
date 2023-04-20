@@ -11,8 +11,9 @@ import javax.validation.constraints.Size;
  * date           : 2023/04/18
  * description    :
  */
+/** 동반자 조회 Request  */
 @Data
-public class MemberRequestDTO {
+public class GetMemberRequestDTO {
     private String companyId;
     @Size(min = 8, max = 8)
     private String dateId;

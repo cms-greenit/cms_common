@@ -13,6 +13,7 @@ import javax.validation.constraints.Size;
  * date           : 2023/04/18
  * description    :
  */
+/** 예약 등록 Request  */
 @Data
 public class PostReservationRequestDTO {
     @NotEmpty

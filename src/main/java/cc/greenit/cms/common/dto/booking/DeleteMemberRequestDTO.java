@@ -14,6 +14,7 @@ import java.util.List;
  * date           : 2023/04/19
  * description    :
  */
+/** 동반자 삭제 Request  */
 @Data
 public class DeleteMemberRequestDTO {
     @NotEmpty

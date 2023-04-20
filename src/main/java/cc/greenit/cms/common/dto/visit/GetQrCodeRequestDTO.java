@@ -13,6 +13,7 @@ import javax.validation.constraints.NotEmpty;
  * date           : 2023/04/18
  * description    :
  */
+/** QR코드 생성 Request */
 @Data
 @Builder
 public class GetQrCodeRequestDTO {

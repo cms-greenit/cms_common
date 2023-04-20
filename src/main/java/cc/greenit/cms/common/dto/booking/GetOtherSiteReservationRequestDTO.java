@@ -14,8 +14,9 @@ import java.util.List;
  * date           : 2023/04/19
  * description    :
  */
+/** 예약 조회(홈페이지) Request  */
 @Data
-public class OtherSiteReservationRequestDTO {
+public class GetOtherSiteReservationRequestDTO {
     @NotEmpty
     private String companyId;
     @Size(min = 8, max = 8)

@@ -14,6 +14,7 @@ import java.util.List;
  * date           : 2023/04/18
  * description    :
  */
+/** 체크인 조회 Request */
 @Data
 public class GetCheckInRequestDTO {
     @NotEmpty

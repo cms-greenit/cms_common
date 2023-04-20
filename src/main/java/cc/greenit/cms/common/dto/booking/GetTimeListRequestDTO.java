@@ -12,8 +12,9 @@ import javax.validation.constraints.Size;
  * date           : 2023/04/18
  * description    :
  */
+/** 타임 리스트 조회 Request  */
 @Data
-public class TimeListRequestDTO {
+public class GetTimeListRequestDTO {
     @NotEmpty
     private String companyId;
     @Size(min = 8, max = 8)

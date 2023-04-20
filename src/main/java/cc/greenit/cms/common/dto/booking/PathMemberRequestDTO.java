@@ -16,6 +16,7 @@ import java.util.List;
  * date           : 2023/04/19
  * description    :
  */
+/** 동반자 수정 Request  */
 @Data
 public class PathMemberRequestDTO {
     @NotEmpty
