@@ -10,9 +10,8 @@ import javax.validation.constraints.Size;
  * fileName       : TimeListRequestDTO
  * author         : zaid
  * date           : 2023/04/18
- * description    :
+ * description    : 타임 리스트 조회 Request
  */
-/** 타임 리스트 조회 Request  */
 @Data
 public class GetTimeListRequestDTO {
     @NotEmpty

@@ -9,9 +9,8 @@ import java.time.LocalDateTime;
  * fileName       : GetQrCodeResponseDTO
  * author         : zaid
  * date           : 2023/04/18
- * description    :
+ * description    : QR코드 생성 Response
  */
-/** QR코드 생성 Response */
 @Data
 public class GetQrCodeResponseDTO {
     private String qrCode;

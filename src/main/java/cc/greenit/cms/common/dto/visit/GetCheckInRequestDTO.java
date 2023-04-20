@@ -12,9 +12,8 @@ import java.util.List;
  * fileName       : GetCheckInRequestDTO
  * author         : zaid
  * date           : 2023/04/18
- * description    :
+ * description    : 체크인 조회 Request
  */
-/** 체크인 조회 Request */
 @Data
 public class GetCheckInRequestDTO {
     @NotEmpty

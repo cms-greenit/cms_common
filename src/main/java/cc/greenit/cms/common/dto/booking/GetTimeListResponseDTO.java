@@ -7,9 +7,8 @@ import lombok.Data;
  * fileName       : TimeListResponseDTO
  * author         : zaid
  * date           : 2023/04/18
- * description    :
+ * description    : 예약가능 날짜 조회 Request
  */
-/** 예약가능 날짜 조회 Request  */
 @Data
 public class GetTimeListResponseDTO {
     private String dateId;

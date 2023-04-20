@@ -7,9 +7,8 @@ import lombok.Data;
  * fileName       : CalendarResponseDTO
  * author         : zaid
  * date           : 2023/04/18
- * description    :
+ * description    : 예약가능 날짜 조회 Response
  */
-/** 예약가능 날짜 조회 Response  */
 @Data
 public class GetCalendarResponseDTO {
     private String dateId;

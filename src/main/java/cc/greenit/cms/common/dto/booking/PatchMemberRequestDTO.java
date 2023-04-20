@@ -1,6 +1,5 @@
 package cc.greenit.cms.common.dto.booking;
 
-import cc.greenit.cms.common.dto.common.Gender;
 import lombok.Data;
 
 import javax.validation.constraints.NotEmpty;
@@ -14,9 +13,8 @@ import java.util.List;
  * fileName       : PathMemberRequestDTO
  * author         : zaid
  * date           : 2023/04/19
- * description    :
+ * description    : 동반자 수정 Request
  */
-/** 동반자 수정 Request  */
 @Data
 public class PatchMemberRequestDTO {
     @NotEmpty
@@ -41,6 +39,6 @@ public class PatchMemberRequestDTO {
         @NotEmpty
         @Size(min = 11, max = 11)
         private String memberPhone;
-        private Gender memberGender;
+        private String memberGender;
     }
 }

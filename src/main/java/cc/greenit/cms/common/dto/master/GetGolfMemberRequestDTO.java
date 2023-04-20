@@ -10,9 +10,8 @@ import javax.validation.constraints.NotEmpty;
  * fileName       : GolfMemberRequestDTO
  * author         : zaid
  * date           : 2023/04/18
- * description    :
+ * description    : 골프장 회원 여부 조회 RequestDTO
  */
-/** 골프장 회원 여부 조회 RequestDTO */
 @Data
 public class GetGolfMemberRequestDTO {
     @NotEmpty

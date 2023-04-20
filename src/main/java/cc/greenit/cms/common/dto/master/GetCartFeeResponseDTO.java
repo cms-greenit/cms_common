@@ -7,9 +7,8 @@ import lombok.Data;
  * fileName       : CartFeeResponseDTO
  * author         : zaid
  * date           : 2023/04/18
- * description    :
+ * description    : 카트 요금 조회 Response
  */
-/** 카트 요금 조회 Response */
 @Data
 public class GetCartFeeResponseDTO {
     private Integer hole;

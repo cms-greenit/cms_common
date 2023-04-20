@@ -1,6 +1,5 @@
 package cc.greenit.cms.common.dto.visit;
 
-import cc.greenit.cms.common.dto.common.Gender;
 import lombok.Data;
 
 import javax.validation.constraints.NotEmpty;
@@ -11,9 +10,8 @@ import javax.validation.constraints.Size;
  * fileName       : CheckInRequestDTO
  * author         : zaid
  * date           : 2023/04/18
- * description    :
+ * description    : 체크인 Request
  */
-/** 체크인 Request */
 @Data
 public class PostCheckInRequestDTO {
     @NotEmpty
@@ -31,7 +29,7 @@ public class PostCheckInRequestDTO {
     @NotEmpty
     @Size(min = 11, max = 11)
     private String memberPhone;
-    private Gender memberGender;
+    private String memberGender;
     private String bagName;
     private boolean useLocker;
 }

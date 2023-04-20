@@ -7,9 +7,8 @@ import lombok.Data;
  * fileName       : PostMemberResponseDTO
  * author         : zaid
  * date           : 2023/04/19
- * description    :
+ * description    : 동반자 등록 Response
  */
-/** 동반자 등록 Response  */
 @Data
 public class PostMemberResponseDTO {
     private String memberSeq;

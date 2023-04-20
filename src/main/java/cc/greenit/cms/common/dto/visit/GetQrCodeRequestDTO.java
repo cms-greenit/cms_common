@@ -1,6 +1,5 @@
 package cc.greenit.cms.common.dto.visit;
 
-import cc.greenit.cms.common.dto.common.Gender;
 import lombok.Builder;
 import lombok.Data;
 
@@ -11,9 +10,8 @@ import javax.validation.constraints.NotEmpty;
  * fileName       : GetQrCodeRequestDTO
  * author         : zaid
  * date           : 2023/04/18
- * description    :
+ * description    : QR코드 생성 Request
  */
-/** QR코드 생성 Request */
 @Data
 @Builder
 public class GetQrCodeRequestDTO {
@@ -27,7 +25,7 @@ public class GetQrCodeRequestDTO {
     private String courseId;
     @NotEmpty
     private String memberName;
-    private Gender memberGender;
+    private String memberGender;
     @NotEmpty
     private String memberPhone;
     private String bagName;

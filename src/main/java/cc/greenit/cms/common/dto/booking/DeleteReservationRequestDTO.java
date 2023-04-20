@@ -10,9 +10,8 @@ import javax.validation.constraints.Size;
  * fileName       : DeleteReservationRequestDTO
  * author         : zaid
  * date           : 2023/04/18
- * description    :
+ * description    : 예약 취소 Request
  */
-/** 예약 취소 Request  */
 @Data
 public class DeleteReservationRequestDTO {
     @NotEmpty

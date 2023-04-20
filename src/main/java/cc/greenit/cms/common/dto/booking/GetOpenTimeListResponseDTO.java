@@ -7,9 +7,8 @@ import lombok.Data;
  * fileName       : OpenTimeListResponseDTO
  * author         : zaid
  * date           : 2023/04/19
- * description    :
+ * description    : 현재오픈타임 조회 Response
  */
-/** 현재오픈타임 조회 Response  */
 @Data
 public class GetOpenTimeListResponseDTO {
     private String companyId;

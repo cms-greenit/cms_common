@@ -11,9 +11,8 @@ import javax.validation.constraints.Size;
  * fileName       : PostReservationRequestDTO
  * author         : zaid
  * date           : 2023/04/18
- * description    :
+ * description    : 예약 등록 Request
  */
-/** 예약 등록 Request  */
 @Data
 public class PostReservationRequestDTO {
     @NotEmpty

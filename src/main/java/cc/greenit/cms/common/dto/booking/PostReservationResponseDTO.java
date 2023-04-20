@@ -7,9 +7,8 @@ import lombok.Data;
  * fileName       : PostReservationResponseDTO
  * author         : zaid
  * date           : 2023/04/18
- * description    :
+ * description    : 예약 등록 Response
  */
-/** 예약 등록 Response  */
 @Data
 public class PostReservationResponseDTO {
     private String rsvNo;

@@ -9,9 +9,8 @@ import javax.validation.constraints.NotEmpty;
  * fileName       : CartFeeRequestDTO
  * author         : zaid
  * date           : 2023/04/18
- * description    :
+ * description    : 카트 요금 조회 Request
  */
-/** 카트 요금 조회 Request */
 @Data
 public class GetCartFeeRequestDTO {
     @NotEmpty

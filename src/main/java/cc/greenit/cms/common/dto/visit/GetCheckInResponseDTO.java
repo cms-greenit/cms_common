@@ -1,6 +1,5 @@
 package cc.greenit.cms.common.dto.visit;
 
-import cc.greenit.cms.common.dto.common.Gender;
 import lombok.Data;
 
 /**
@@ -8,9 +7,8 @@ import lombok.Data;
  * fileName       : GetCheckInResponseDTO
  * author         : zaid
  * date           : 2023/04/18
- * description    :
+ * description    : 체크인 조회 Response
  */
-/** 체크인 조회 Response */
 @Data
 public class GetCheckInResponseDTO {
     private String companyId;
@@ -19,7 +17,7 @@ public class GetCheckInResponseDTO {
     private String timeId;
     private String erpCheckinId;
     private String erpCheckinName;
-    private Gender erpCheckinGender;
+    private String erpCheckinGender;
     private String erpCheckinQrcode;
     private String status;
     private String locker;

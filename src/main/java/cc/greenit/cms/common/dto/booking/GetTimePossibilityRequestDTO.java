@@ -10,9 +10,8 @@ import javax.validation.constraints.NotEmpty;
  * fileName       : TimePossibilityRequestDTO
  * author         : zaid
  * date           : 2023/04/18
- * description    :
+ * description    : 예약 가능 여부 조회 Request
  */
-/** 예약 가능 여부 조회 Request  */
 @Data
 @Builder
 public class GetTimePossibilityRequestDTO {

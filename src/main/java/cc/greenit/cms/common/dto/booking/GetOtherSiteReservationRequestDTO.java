@@ -12,9 +12,8 @@ import java.util.List;
  * fileName       : OtherSiteReservationRequestDTO
  * author         : zaid
  * date           : 2023/04/19
- * description    :
+ * description    : 예약 조회(홈페이지) Request
  */
-/** 예약 조회(홈페이지) Request  */
 @Data
 public class GetOtherSiteReservationRequestDTO {
     @NotEmpty

@@ -9,9 +9,9 @@ import javax.validation.constraints.Size;
  * fileName       : MemberRequestDTO
  * author         : zaid
  * date           : 2023/04/18
- * description    :
+ * description    : 동반자 조회 Request
  */
-/** 동반자 조회 Request  */
+/**   */
 @Data
 public class GetMemberRequestDTO {
     private String companyId;
@@ -31,6 +31,9 @@ public class GetMemberRequestDTO {
     private String dateIdLike;
     @Size(min = 14, max = 14)
     private String datetimeGoe;
-    private String option;
+    private Option option;
 
+    public enum Option {
+        FLAT, LIST
+    }
 }
