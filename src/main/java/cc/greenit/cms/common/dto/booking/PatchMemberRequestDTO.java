@@ -18,7 +18,7 @@ import java.util.List;
  */
 /** 동반자 수정 Request  */
 @Data
-public class PathMemberRequestDTO {
+public class PatchMemberRequestDTO {
     @NotEmpty
     private String companyId;
     @NotEmpty

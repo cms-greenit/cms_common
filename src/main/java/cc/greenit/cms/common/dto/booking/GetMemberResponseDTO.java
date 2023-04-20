@@ -1,7 +1,9 @@
 package cc.greenit.cms.common.dto.booking;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
@@ -19,7 +21,7 @@ public class GetMemberResponseDTO {
     private String courseId;
     private String timeId;
     private String rsvNo;
-    private String memberSeq;
+    private Integer memberSeq;
     private String memberName;
     private String golfMemberNum;
     private String memberGender;
