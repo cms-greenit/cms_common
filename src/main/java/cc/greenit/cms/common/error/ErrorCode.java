@@ -49,7 +49,8 @@ public enum ErrorCode {
     LOCKER_SETTING_ERROR(400, "V002", "락커 설정 오류"),
     QRCODE_SETTING_ERROR(400, "V003", "QRCode 설정 오류"),
     CHECKIN_NOT_FOUND(400, "V004", "체크인 정보가 없습니다."),
-    ALREADY_CHECKIN(400, "V005", "이미 체크인 된 고객입니다.")
+    ALREADY_CHECKIN(400, "V005", "이미 체크인 된 고객입니다."),
+    CHECKIN_ONLY_TODAY(400, "V006", "체크인은 당일만 가능합니다."),
     ;
 
     private int status;
