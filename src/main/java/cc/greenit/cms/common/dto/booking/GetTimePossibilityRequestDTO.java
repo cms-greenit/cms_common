@@ -13,7 +13,6 @@ import javax.validation.constraints.NotEmpty;
  * description    : 예약 가능 여부 조회 Request
  */
 @Data
-@Builder
 public class GetTimePossibilityRequestDTO {
     @NotEmpty
     private String companyId;

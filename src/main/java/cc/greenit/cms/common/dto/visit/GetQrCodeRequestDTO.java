@@ -13,7 +13,6 @@ import javax.validation.constraints.NotEmpty;
  * description    : QR코드 생성 Request
  */
 @Data
-@Builder
 public class GetQrCodeRequestDTO {
     @NotEmpty
     private String companyId;
