@@ -22,4 +22,12 @@ public class GetTimePossibilityRequestDTO {
     private String timeId;
     @NotEmpty
     private String courseId;
+
+    @Builder
+    public GetTimePossibilityRequestDTO(String companyId, String dateId, String timeId, String courseId) {
+        this.companyId = companyId;
+        this.dateId = dateId;
+        this.timeId = timeId;
+        this.courseId = courseId;
+    }
 }
