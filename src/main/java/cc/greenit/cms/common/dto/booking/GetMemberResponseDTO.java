@@ -28,6 +28,7 @@ public class GetMemberResponseDTO<T> {
         private String golfMemberNum;
         private String memberGender;
         private String memberPhone;
+        private String erpInputDateTime;
     }
 
     public GetMemberResponseDTO(String dateId, String courseId, String timeId, String rsvNo) {
@@ -45,12 +46,12 @@ public class GetMemberResponseDTO<T> {
         this.data = (T) memberList;
     }
 
-    public GetMemberResponseDTO(String dateId, String courseId, String timeId, String rsvNo, Integer memberSeq, String memberName, String golfMemberNum, String memberGender, String memberPhone) {
+    public GetMemberResponseDTO(String dateId, String courseId, String timeId, String rsvNo, Integer memberSeq, String memberName, String golfMemberNum, String memberGender, String memberPhone, String erpInputDateTime) {
         this.dateId = dateId;
         this.courseId = courseId;
         this.timeId = timeId;
         this.rsvNo = rsvNo;
-        this.data = (T) new Member(memberSeq, memberName, golfMemberNum, memberGender, memberPhone);
+        this.data = (T) new Member(memberSeq, memberName, golfMemberNum, memberGender, memberPhone, erpInputDateTime);
     }
 
 }
