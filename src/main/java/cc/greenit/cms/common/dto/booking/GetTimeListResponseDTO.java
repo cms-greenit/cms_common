@@ -23,7 +23,7 @@ public class GetTimeListResponseDTO {
     private String erpRsvNo;
     private String erpRsvPhone;
     private String erpRsvAgencyCode;
-    private String erpRsvPerson;
+    private String erpRsvPersonnel;
     private String erpRsvGreenFee;
     private String isErpBlock;
     private String isErpEmpty;
