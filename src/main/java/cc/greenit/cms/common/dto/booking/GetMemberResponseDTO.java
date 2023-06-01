@@ -28,6 +28,7 @@ public class GetMemberResponseDTO<T> {
         private String golfMemberNum;
         private String memberGender;
         private String memberPhone;
+        // 날짜 + 시간 14자리로 리턴
         private String erpInputDateTime;
     }
 
