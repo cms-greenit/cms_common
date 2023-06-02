@@ -44,6 +44,7 @@ public enum ErrorCode {
     MEMBER_NOT_FOUND(400, "B019", "회원정보를 찾을 수 없습니다"),
     RESERVATION_SETTING_ERROR(400, "B020", "예약 설정 오류"),
     AGENCY_NOT_OPEN(400, "B021", "오픈되지 않은 타임입니다."),
+    PLACEBO_PERIOD_MEMBER(400, "B022", "위약기간에 포함되어있는 회원입니다."),
 
     CHECKIN_SETTING_ERROR(400, "V001", "체크인 설정 오류"),
     LOCKER_SETTING_ERROR(400, "V002", "락커 설정 오류"),
