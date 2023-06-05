@@ -13,9 +13,20 @@ import lombok.Data;
 public class GetCalendarResponseDTO {
     private String dateId;
     private String weekdayType;
-    private String bookingOpenDate;
-    private String bookingOpenTime;
-    private String homepageOpenDate;
-    private String homepageOpenTime;
-    private String cancelableDateTime;
+    private String bookingOpenStartDate;
+    private String bookingOpenStartTime;
+    private String bookingOpenEndDate;
+    private String bookingOpenEndTime;
+    private String homepageOpenStartDate;
+    private String homepageOpenStartTime;
+    private String homepageOpenEndDate;
+    private String homepageOpenEndTime;
+    private String bookingCancelStartDate;
+    private String bookingCancelStartTime;
+    private String bookingCancelEndDate;
+    private String bookingCancelEndTime;
+    private String homepageCancelStartDate;
+    private String homepageCancelStartTime;
+    private String homepageCancelEndDate;
+    private String homepageCancelEndTime;
 }
