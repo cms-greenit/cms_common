@@ -24,7 +24,7 @@ public class DeleteMemberRequestDTO {
     private String courseId;
     @NotEmpty
     private String timeId;
-    @NotEmpty
+    private String timeSeq;
     private String rsvNo;
     @NotEmpty
     private String agencyCode;

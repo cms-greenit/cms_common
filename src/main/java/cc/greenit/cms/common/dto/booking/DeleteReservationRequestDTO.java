@@ -20,9 +20,9 @@ public class DeleteReservationRequestDTO {
     private String dateId;
     @NotEmpty
     private String timeId;
+    private String timeSeq;
     @NotEmpty
     private String courseId;
-    @NotEmpty
     private String rsvNo;
     private String agencyCode;
     @Size(max = 50)

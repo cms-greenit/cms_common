@@ -22,9 +22,9 @@ public class GetTimeCancelPossibilityRequestDTO {
     private String courseId;
     @NotEmpty
     private String timeId;
+    private String timeSeq;
     @NotEmpty
     private String agencyCode;
-    @NotEmpty
     private String rsvNo;
 
     @Builder
