@@ -45,6 +45,12 @@ public enum ErrorCode {
     RESERVATION_SETTING_ERROR(400, "B020", "예약 설정 오류"),
     AGENCY_NOT_OPEN(400, "B021", "오픈되지 않은 타임입니다."),
     PLACEBO_PERIOD_MEMBER(400, "B022", "위약기간에 포함되어있는 회원입니다."),
+    DUPLICATION_BOOKING_SAME_DAY(400, "B023", "같은날 예약이 존재합니다."),
+    WEEKEND_RESERVATION_EXCEEDED(400, "B024", "주말 예약횟수를 초과하였습니다."),
+    WEEKDAY_RESERVATION_EXCEEDED(400, "B025", "주중 예약횟수를 초과하였습니다."),
+    VISIT_PROHIBITED_MEMBER(400, "B026", "내장 금지 회원입니다."),
+    BOOKING_PROHIBITED_MEMBER(400, "B027", "예약 금지 회원입니다."),
+    AGENCY_NOT_FOUND(400, "B028", "존재하지 않는 에이전시입니다."),
 
     CHECKIN_SETTING_ERROR(400, "V001", "체크인 설정 오류"),
     LOCKER_SETTING_ERROR(400, "V002", "락커 설정 오류"),
