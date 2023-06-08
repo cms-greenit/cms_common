@@ -21,6 +21,7 @@ public class GetTimeListResponseDTO {
     // CADDY("캐디동반"), SELF("셀프라운드"), DRIVING("드라이빙캐디"), MARSHALL("마샬캐디"), INTERN("인턴캐디"), SMILE("미소지기캐디"), SPROUT("새싹캐디");
     private String caddyType;
     private String greenFee;
+    private String cartFee;
     private String erpRsvName;
     private String erpRsvNo;
     private String erpRsvPhone;
