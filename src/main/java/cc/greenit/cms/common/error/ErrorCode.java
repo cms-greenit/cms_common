@@ -51,6 +51,8 @@ public enum ErrorCode {
     VISIT_PROHIBITED_MEMBER(400, "B026", "내장 금지 회원입니다."),
     BOOKING_PROHIBITED_MEMBER(400, "B027", "예약 금지 회원입니다."),
     AGENCY_NOT_FOUND(400, "B028", "존재하지 않는 에이전시입니다."),
+    RESERVATION_CANCEL_ERROR(400, "B029", "예약 취소 오류"),
+    ALREADY_CHECKIN_BOOKING(400, "B030", "이미 체크인 된 예약입니다."),
 
     CHECKIN_SETTING_ERROR(400, "V001", "체크인 설정 오류"),
     LOCKER_SETTING_ERROR(400, "V002", "락커 설정 오류"),
