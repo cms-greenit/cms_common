@@ -27,7 +27,7 @@ public class GetMemberRequestDTO {
     private String dateIdBetweenFrom;
     @Size(min = 8, max = 8)
     private String dateIdBetweenTo;
-    @Size(min = 8, max = 8)
+    @Size(min = 4, max = 8)
     private String dateIdLike;
     @Size(min = 14, max = 14)
     private String datetimeGoe;
