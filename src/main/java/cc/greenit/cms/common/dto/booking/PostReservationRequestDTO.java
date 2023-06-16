@@ -33,6 +33,7 @@ public class PostReservationRequestDTO {
     @NotEmpty
     @Size(min = 11, max = 11)
     private String memberPhone;
+    private String memberGender;
     @Size(max = 50)
     private String remark;
 }
