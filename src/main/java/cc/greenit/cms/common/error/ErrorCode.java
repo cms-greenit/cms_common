@@ -61,6 +61,7 @@ public enum ErrorCode {
     ALREADY_CHECKIN(400, "V005", "이미 체크인 된 고객입니다."),
     CHECKIN_ONLY_TODAY(400, "V006", "체크인은 당일만 가능합니다."),
     QRCODE_NOT_FOUND(400, "V007", "없는 qrcode 입니다."),
+    GET_CHECKIN_ONLY_TODAY(400, "V008", "체크인 조회는 당일만 가능합니다."),
     ;
 
     private int status;
