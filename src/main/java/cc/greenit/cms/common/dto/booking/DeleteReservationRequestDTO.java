@@ -27,5 +27,4 @@ public class DeleteReservationRequestDTO {
     private String agencyCode;
     @Size(max = 50)
     private String reason;
-    private String ip;
 }
