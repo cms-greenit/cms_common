@@ -32,6 +32,6 @@ public class DeleteMemberRequestDTO {
     @Data
     public static class Member{
         @NotNull
-        private Integer memberSeq;
+        private String memberSeq;
     }
 }

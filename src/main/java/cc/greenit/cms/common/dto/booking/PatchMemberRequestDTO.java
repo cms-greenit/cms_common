@@ -33,7 +33,7 @@ public class PatchMemberRequestDTO {
     @Data
     public static class Member{
         @NotNull
-        private Integer memberSeq;
+        private String memberSeq;
         @NotEmpty
         private String memberName;
         @NotEmpty

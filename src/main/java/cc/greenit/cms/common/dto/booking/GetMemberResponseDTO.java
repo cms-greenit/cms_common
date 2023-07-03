@@ -23,7 +23,7 @@ public class GetMemberResponseDTO<T> {
     @Data
     @AllArgsConstructor
     public static class Member {
-        private Integer memberSeq;
+        private String memberSeq;
         private String memberName;
         private String golfMemberNum;
         private String memberGender;
@@ -47,7 +47,7 @@ public class GetMemberResponseDTO<T> {
         this.data = (T) memberList;
     }
 
-    public GetMemberResponseDTO(String dateId, String courseId, String timeId, String rsvNo, Integer memberSeq, String memberName, String golfMemberNum, String memberGender, String memberPhone, String erpInputDateTime) {
+    public GetMemberResponseDTO(String dateId, String courseId, String timeId, String rsvNo, String memberSeq, String memberName, String golfMemberNum, String memberGender, String memberPhone, String erpInputDateTime) {
         this.dateId = dateId;
         this.courseId = courseId;
         this.timeId = timeId;
