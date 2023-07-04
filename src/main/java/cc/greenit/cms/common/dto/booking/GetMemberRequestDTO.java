@@ -21,6 +21,8 @@ public class GetMemberRequestDTO {
     private String courseId;
     @Size(min = 4, max = 4)
     private String timeId;
+    @Size(min = 5, max = 5)
+    private String timeSeq;
     @Size(min = 6, max = 12)
     private String rsvNo;
     @Size(min = 8, max = 8)
