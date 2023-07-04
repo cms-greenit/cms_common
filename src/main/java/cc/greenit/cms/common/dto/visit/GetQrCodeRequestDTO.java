@@ -22,6 +22,7 @@ public class GetQrCodeRequestDTO {
     private String timeId;
     @NotEmpty
     private String courseId;
+    private String timeSeq;
     @NotEmpty
     private String memberName;
     private String memberGender;
