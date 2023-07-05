@@ -20,10 +20,10 @@ public class GetCheckInRequestDTO {
     private String companyId;
     @Size(min = 8, max = 8)
     private String dateId;
-    @Size(min = 1, max = 1)
     private String courseId;
     @Size(min = 4, max = 4)
     private String timeId;
+    private String timeSeq;
     @Size(min = 8, max = 8)
     private String dateIdBetweenFrom;
     @Size(min = 8, max = 8)

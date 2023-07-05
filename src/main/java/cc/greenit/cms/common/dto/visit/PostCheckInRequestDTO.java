@@ -22,6 +22,7 @@ public class PostCheckInRequestDTO {
     private String courseId;
     @NotEmpty
     private String timeId;
+    private String timeSeq;
     @NotEmpty
     private String agencyCode;
     @NotEmpty
