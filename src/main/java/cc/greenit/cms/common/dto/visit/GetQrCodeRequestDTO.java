@@ -28,5 +28,6 @@ public class GetQrCodeRequestDTO {
     private String memberGender;
     @NotEmpty
     private String memberPhone;
+    private String memberSeq;
     private String bagName;
 }
