@@ -18,8 +18,7 @@ public class GetOpenTimeListResponseDTO {
     private String timeSeq;
     /**
      * 모든 에이전시, 홈페이지 오픈이 같으면 ALL
-     * - GOLAGA   : 골라가
-     * - HOMEPAGE : 홈페이지
+     * 아니면 에이전시 관리 코드
      */
     private String agencyCode;
 
