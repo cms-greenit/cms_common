@@ -12,5 +12,6 @@ import lombok.Data;
 @Data
 public class PostReservationResponseDTO {
     private String rsvNo;
+    private String memberId;
     private String memberSeq;
 }
