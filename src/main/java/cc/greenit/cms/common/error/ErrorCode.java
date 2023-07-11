@@ -54,6 +54,7 @@ public enum ErrorCode {
     RESERVATION_CANCEL_ERROR(400, "B029", "예약 취소 오류"),
     ALREADY_CHECKIN_BOOKING(400, "B030", "이미 체크인 된 예약입니다."),
     BOOKING_OWNER_NOT_DELETE(400, "B031", "예약자는 삭제할 수 없습니다."),
+    BOOKING_OWNER_NOT_CHANGE(400, "B032", "예약자는 수정할 수 없습니다."),
 
     CHECKIN_SETTING_ERROR(400, "V001", "체크인 설정 오류"),
     LOCKER_SETTING_ERROR(400, "V002", "락커 설정 오류"),
