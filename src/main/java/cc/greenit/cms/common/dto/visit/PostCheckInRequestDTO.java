@@ -24,7 +24,6 @@ public class PostCheckInRequestDTO {
     private String timeId;
     private String timeSeq;
     private String rsvNo;
-    @NotEmpty
     private String agencyCode;
     private String memberSeq;
     @NotEmpty
