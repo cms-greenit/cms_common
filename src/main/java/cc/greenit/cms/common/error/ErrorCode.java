@@ -65,6 +65,7 @@ public enum ErrorCode {
     QRCODE_NOT_FOUND(400, "V007", "없는 qrcode 입니다."),
     GET_CHECKIN_ONLY_TODAY(400, "V008", "체크인 조회는 당일만 가능합니다."),
     CHECKIN_PERSONNEL_EXCEEDED(400, "V009", "체크인 인원이 초과되었습니다."),
+    PROMOTION_SETTING_ERROR(400, "V010", "프로모션 적용에 실패했습니다."),
     ;
 
     private int status;
