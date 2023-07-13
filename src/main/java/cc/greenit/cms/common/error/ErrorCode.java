@@ -66,6 +66,8 @@ public enum ErrorCode {
     GET_CHECKIN_ONLY_TODAY(400, "V008", "체크인 조회는 당일만 가능합니다."),
     CHECKIN_PERSONNEL_EXCEEDED(400, "V009", "체크인 인원이 초과되었습니다."),
     PROMOTION_SETTING_ERROR(400, "V010", "프로모션 적용에 실패했습니다."),
+    DELETED_CHECKIN(400, "V011", "삭제된 체크인 정보 입니다."),
+    ALREADY_CHECKOUT(400, "V012", "체크아웃된 체크인 정보 입니다."),
     ;
 
     private int status;
