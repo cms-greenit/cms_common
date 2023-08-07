@@ -55,6 +55,8 @@ public enum ErrorCode {
     ALREADY_CHECKIN_BOOKING(400, "B030", "이미 체크인 된 예약입니다."),
     BOOKING_OWNER_NOT_DELETE(400, "B031", "예약자는 삭제할 수 없습니다."),
     BOOKING_OWNER_NOT_CHANGE(400, "B032", "예약자는 수정할 수 없습니다."),
+    MONTH_RESERVATION_EXCEEDED(400, "B034", "해당 월 예약횟수를 모두 사용하였습니다."),
+    DAY_RESERVATION_EXCEEDED(400, "B035", "해당 일 예약횟수를 모두 사용하였습니다."),
 
     CHECKIN_SETTING_ERROR(400, "V001", "체크인 설정 오류"),
     LOCKER_SETTING_ERROR(400, "V002", "락커 설정 오류"),
