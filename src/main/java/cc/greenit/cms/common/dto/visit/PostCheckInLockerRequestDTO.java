@@ -2,6 +2,7 @@ package cc.greenit.cms.common.dto.visit;
 
 import lombok.Data;
 
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
 /**
@@ -13,10 +14,10 @@ import javax.validation.constraints.NotNull;
  */
 @Data
 public class PostCheckInLockerRequestDTO {
-    @NotNull
+    @NotEmpty
     private String companyId;
-    @NotNull
+    @NotEmpty
     private String checkinId;
-    @NotNull
+    @NotEmpty
     private String gender;
 }
