@@ -35,7 +35,7 @@ public enum ErrorCode {
     RESERVATION_PERSONNEL_EXCEEDED(400, "B010", "라운드 인원이 초과되었습니다."),
     COURSE_NOT_FOUND(400, "B011", "코스 정보가 존재하지 않습니다."),
     COMPANY_NOT_FOUND(400, "B012", "골프장 정보가 존재하지 않습니다."),
-    LOCK_TIME(400, "B013", "예약 진행중인 타임입니다."),
+    LOCK_TIME(400, "B013", "락 걸린 타임입니다."),
     PLACEBO_PERIOD_RESERVATION(400, "B014", "위약기간에 포함되어 취소가 불가능합니다."),
     COMPANY_BLOCK_TIME(400, "B015", "해당 골프장에서 블록한 타임입니다."),
     DUPLICATION_MEMBER(400, "B016", "이미 등록된 동반자 입니다."),
