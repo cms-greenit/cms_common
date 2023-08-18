@@ -72,6 +72,7 @@ public enum ErrorCode {
     ALREADY_CHECKOUT(400, "V012", "체크아웃된 체크인 정보 입니다."),
     CHECKIN_IMPOSSIBLE_AGENCY(400, "V013", "체크인 불가능한 예약매체 입니다."),
     MISMATCH_TIME(400, "V014", "타임이 일치하지 않습니다."),
+    ALREADY_ISSUED_LOCKER(400, "V015", "락커가 이미 존재합니다."),
     ;
 
     private int status;
