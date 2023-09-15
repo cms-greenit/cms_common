@@ -10,7 +10,7 @@ import java.util.stream.Stream;
  * fileName       : ErrorCode
  * author         : soonhyeong
  * date           : 2023/04/12
- * description    : cms error
+ * description    : cms error code
  */
 public enum ErrorCode {
     INVALID_INPUT_VALUE(400, "C001", "유효하지 않은 파라미터"),
