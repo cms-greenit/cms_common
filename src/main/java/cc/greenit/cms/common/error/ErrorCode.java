@@ -21,6 +21,7 @@ public enum ErrorCode {
     METHOD_NOT_ALLOWED(405, "C005", "허용되지 않은 메소드 입니다."),
     API_SERVER_ERROR(406, "C006", "골프장 API 통신 오류"),
     ENTITY_NOT_FOUND(400, "C007", "데이터 조회 실패"),
+    LOGGING_FAIL(400, "C008", "로그 기록 실패"),
     INTERNAL_SERVER_ERROR(500, "C100", "Server Error"),
 
     TIME_NOT_FOUND(400, "B001", "예약 타임이 존재하지 않습니다."),
