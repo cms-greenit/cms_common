@@ -15,13 +15,13 @@ import java.util.stream.Stream;
 public enum ErrorCode {
     INVALID_INPUT_VALUE(400, "C001", "유효하지 않은 파라미터"),
     INVALID_TYPE_VALUE(400, "C002", "유효하지 않은 파라미터 타입"),
-    WRONG_APPROACH(401, "C008", "잘못된 접근"),
     HANDLE_ACCESS_DENIED(403, "C003", "API 인증 실패"),
     NOT_SUPPORTED_API(403, "C004", "제공하지 않는 API 입니다."),
     METHOD_NOT_ALLOWED(405, "C005", "허용되지 않은 메소드 입니다."),
     API_SERVER_ERROR(406, "C006", "골프장 API 통신 오류"),
     ENTITY_NOT_FOUND(400, "C007", "데이터 조회 실패"),
-    LOGGING_FAIL(400, "C008", "로그 기록 실패"),
+    WRONG_APPROACH(401, "C008", "잘못된 접근"),
+    LOGGING_FAIL(400, "C009", "로그 기록 실패"),
     INTERNAL_SERVER_ERROR(500, "C100", "Server Error"),
 
     TIME_NOT_FOUND(400, "B001", "예약 타임이 존재하지 않습니다."),
