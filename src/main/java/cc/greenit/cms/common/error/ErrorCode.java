@@ -22,6 +22,7 @@ public enum ErrorCode {
     ENTITY_NOT_FOUND(400, "C007", "데이터 조회 실패"),
     WRONG_APPROACH(401, "C008", "잘못된 접근"),
     LOGGING_FAIL(400, "C009", "로그 기록 실패"),
+    API_DB_ERROR(406, "C010", "골프장 DB 연결 오류"),
     INTERNAL_SERVER_ERROR(500, "C100", "Server Error"),
 
     TIME_NOT_FOUND(400, "B001", "예약 타임이 존재하지 않습니다."),
