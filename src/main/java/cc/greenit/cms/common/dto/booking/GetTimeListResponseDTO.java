@@ -33,4 +33,6 @@ public class GetTimeListResponseDTO {
     // HOMEPAGE, TEL, GOLAGA, OTHER
     private String agencyType;
     private String agencyName;
+    private String erpAssigneeName = null;
+    private String erpAssigneePhone = null;
 }
