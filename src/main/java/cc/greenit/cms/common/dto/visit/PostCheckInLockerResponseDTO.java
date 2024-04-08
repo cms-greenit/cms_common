@@ -2,7 +2,7 @@ package cc.greenit.cms.common.dto.visit;
 
 import lombok.Data;
 
-import jakarta.validation.constraints.NotNull;
+import javax.validation.constraints.NotNull;
 
 /**
  * packageName    : cc.greenit.cms.common.dto.visit

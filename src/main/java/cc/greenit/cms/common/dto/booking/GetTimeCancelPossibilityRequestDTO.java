@@ -3,7 +3,7 @@ package cc.greenit.cms.common.dto.booking;
 import lombok.Builder;
 import lombok.Data;
 
-import jakarta.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotEmpty;
 
 /**
  * packageName    : cc.greenit.cms.domain.booking.dto
