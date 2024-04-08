@@ -2,7 +2,7 @@ package cc.greenit.cms.common.dto.booking;
 
 import lombok.Data;
 
-import javax.validation.constraints.Size;
+import jakarta.validation.constraints.Size;
 
 /**
  * packageName    : cc.greenit.cms.domain.booking.dto
