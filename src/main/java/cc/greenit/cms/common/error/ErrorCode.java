@@ -23,6 +23,10 @@ public enum ErrorCode {
     WRONG_APPROACH(401, "C008", "잘못된 접근"),
     LOGGING_FAIL(400, "C009", "로그 기록 실패"),
     API_DB_ERROR(406, "C010", "골프장 DB 연결 오류"),
+    INVALID_TOKEN(403,"C011", "유효하지 않은 토큰입니다."),
+    EXPIRED_TOKEN(403, "C012", "만료된 토큰 입니다."),
+    NO_REFRESH_TOKEN(403,"C013", "토큰이 존재하지않습니다"),
+    PERMISSION_DENIED(403, "C014", "접근 권한이 없습니다."),
     INTERNAL_SERVER_ERROR(500, "C100", "Server Error"),
 
     TIME_NOT_FOUND(400, "B001", "예약 타임이 존재하지 않습니다."),
