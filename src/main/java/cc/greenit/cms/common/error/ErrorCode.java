@@ -88,7 +88,7 @@ public enum ErrorCode {
     ADMIN_USER_FORBIDDEN_NO_AT(403, "AU07", "No access token. Please login again."),
     ADMIN_USER_FORBIDDEN_NO_RT(403, "AU08", "No refresh token. Please login again."),
     ADMIN_USER_PW_NOT_SWITCHED(401, "AU09", "비밀번호를 변경하셔야합니다."),
-    ADMIN_USER_DELETED(403, "AU10", "J삭제된 관리자입니다."),
+    ADMIN_USER_DELETED(403, "AU10", "삭제된 관리자입니다."),
     ADMIN_USER_BLOCKED(403, "AU11", "차단된 관리자입니다."),
     ADMIN_USER_PW_UNACCEPTABLE(409, "AU12", "기존에 등록한 비밀번호와 일치합니다. 다른 비밀번호로 변경해주세요."),
     ADMIN_USER_CANNOT_DELETE_OWN(409, "AU13", "본인 계정은 삭제할 수 없습니다."),
