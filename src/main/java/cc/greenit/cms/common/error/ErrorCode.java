@@ -97,7 +97,6 @@ public enum ErrorCode {
     AGENCY_KEY_NOT_FOUND(404, "A023", "존재하지 않는 대행사 키입니다."),
     ADMIN_CM_ALREADY_EXISTS(409, "ACM01", "에이전시 - 골프장 이미 매핑되어 있습니다."),
     ADMIN_CM_NOT_FOUND(404, "ACM02", "No code mapper detected."),
-    VISIT_HISTORY_NOT_FOUND(404, "VH01", "존재하지 않는 내장내역입니다."),
 
     ;
 
