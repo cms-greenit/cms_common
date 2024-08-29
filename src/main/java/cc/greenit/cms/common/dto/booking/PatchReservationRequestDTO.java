@@ -23,6 +23,7 @@ public class PatchReservationRequestDTO {
     private String courseId;
     @NotEmpty
     private String timeId;
+    private String rsvNo;
     @NotEmpty
     private String patchDateId;
     @NotEmpty
