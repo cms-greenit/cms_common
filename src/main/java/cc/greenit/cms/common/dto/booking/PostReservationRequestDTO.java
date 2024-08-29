@@ -1,5 +1,6 @@
 package cc.greenit.cms.common.dto.booking;
 
+import lombok.Builder;
 import lombok.Data;
 
 import javax.validation.constraints.NotEmpty;
@@ -37,4 +38,21 @@ public class PostReservationRequestDTO {
     private String memberGender;
     @Size(max = 50)
     private String remark;
+
+    @Builder
+    public PostReservationRequestDTO(String companyId, String dateId, String timeId, String courseId,
+                                     String timeSeq, String agencyCode, Integer person, String memberName,
+                                     String memberPhone, String memberGender, String remark) {
+        this.companyId = companyId;
+        this.dateId = dateId;
+        this.timeId = timeId;
+        this.courseId = courseId;
+        this.timeSeq = timeSeq;
+        this.agencyCode = agencyCode;
+        this.person = person;
+        this.memberName = memberName;
+        this.memberPhone = memberPhone;
+        this.memberGender = memberGender;
+        this.remark = remark;
+    }
 }

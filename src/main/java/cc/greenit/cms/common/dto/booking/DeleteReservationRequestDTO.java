@@ -1,5 +1,6 @@
 package cc.greenit.cms.common.dto.booking;
 
+import lombok.Builder;
 import lombok.Data;
 
 import javax.validation.constraints.NotEmpty;
@@ -28,4 +29,16 @@ public class DeleteReservationRequestDTO {
     private String agencyCode;
     @Size(max = 50)
     private String reason;
+
+    @Builder
+    public DeleteReservationRequestDTO(String companyId, String dateId, String timeId, String courseId, String timeSeq, String agencyCode, String rsvNo, String reason) {
+        this.companyId = companyId;
+        this.dateId = dateId;
+        this.timeId = timeId;
+        this.courseId = courseId;
+        this.timeSeq = timeSeq;
+        this.rsvNo = rsvNo;
+        this.agencyCode = agencyCode;
+        this.reason = reason;
+    }
 }
