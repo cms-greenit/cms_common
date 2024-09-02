@@ -1,21 +1,27 @@
 package cc.greenit.cms.common.dto.booking;
 
 import cc.greenit.cms.common.adapter.TimeListRequestAdapter;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
-
+import java.io.Serializable;
 
 /**
  * packageName    : cc.greenit.cms.domain.booking.dto
- * fileName       : TimeListRequestDTO
- * author         : zaid
- * date           : 2023/04/18
- * description    : 타임 리스트 조회 Request
+ * fileName       : GetTimeListGreenFeeDTO
+ * author         : neal
+ * date           : 2024/08/29
+ * description    :
  */
+
 @Data
-public class GetTimeListRequestDTO implements TimeListRequestAdapter {
+@NoArgsConstructor
+@AllArgsConstructor
+public class GetTimeListGreenFeeRequestDTO implements TimeListRequestAdapter {
+
     @NotEmpty
     private String companyId;
     @Size(min = 8, max = 8)
