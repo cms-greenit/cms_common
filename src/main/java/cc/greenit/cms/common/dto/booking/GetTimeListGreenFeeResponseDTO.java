@@ -24,6 +24,7 @@ public class GetTimeListGreenFeeResponseDTO {
     private String courseId;
     @NotEmpty
     private String timeId;
+    private String  agencyCode;
     private Integer greenFeeOrigin;
     private Integer greenFee;
     private Integer greenFeeSale;
