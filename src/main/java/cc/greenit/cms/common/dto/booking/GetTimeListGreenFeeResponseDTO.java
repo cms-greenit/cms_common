@@ -1,9 +1,9 @@
 package cc.greenit.cms.common.dto.booking;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import javax.validation.constraints.NotEmpty;
 
 /**
@@ -29,5 +29,6 @@ public class GetTimeListGreenFeeResponseDTO {
     private Integer greenFee;
     private Integer greenFeeSale;
     private Integer greenFeeNonMember;
-
+    @JsonIgnore
+    private Integer greenFeeAgency;
 }
