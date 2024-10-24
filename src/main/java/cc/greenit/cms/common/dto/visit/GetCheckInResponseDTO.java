@@ -35,4 +35,5 @@ public class GetCheckInResponseDTO {
     private Integer sportsTax;
     private Integer agriculturalTax;
     private Integer otherTax;
+    private Integer hole;
 }
