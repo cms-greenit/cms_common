@@ -1,5 +1,8 @@
 package cc.greenit.cms.common.dto.booking;
 
+import lombok.Builder;
+import lombok.Data;
+
 /**
  * packageName    : cc.greenit.cms.common.dto.booking
  * fileName       : GetBookingRemarkResponseDTO
@@ -7,6 +10,7 @@ package cc.greenit.cms.common.dto.booking;
  * date           : 10/24/24
  * description    :
  */
+@Data
 public class GetBookingRemarkResponseDTO {
     private String remark;
 }

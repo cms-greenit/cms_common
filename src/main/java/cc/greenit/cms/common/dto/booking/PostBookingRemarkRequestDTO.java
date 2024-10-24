@@ -1,5 +1,8 @@
 package cc.greenit.cms.common.dto.booking;
 
+import lombok.Builder;
+import lombok.Data;
+
 import javax.validation.constraints.NotEmpty;
 
 /**
@@ -9,6 +12,8 @@ import javax.validation.constraints.NotEmpty;
  * date           : 10/24/24
  * description    :
  */
+@Data
+@Builder
 public class PostBookingRemarkRequestDTO {
     @NotEmpty
     private String companyId;
