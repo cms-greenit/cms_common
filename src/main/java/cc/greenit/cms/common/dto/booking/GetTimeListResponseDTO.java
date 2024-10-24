@@ -30,6 +30,7 @@ public class GetTimeListResponseDTO {
     private String erpRsvGreenFee;
     private String isErpBlock;
     private String isErpEmpty;
+    private String isErpRainOut;
     // HOMEPAGE, TEL, GOLAGA, OTHER
     private String agencyType;
     private String agencyName;
