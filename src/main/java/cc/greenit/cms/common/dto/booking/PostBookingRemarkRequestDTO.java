@@ -25,4 +25,6 @@ public class PostBookingRemarkRequestDTO {
     private String courseId;
     @NotEmpty
     private String remark;
+    @NotEmpty
+    private String agencyCode;
 }

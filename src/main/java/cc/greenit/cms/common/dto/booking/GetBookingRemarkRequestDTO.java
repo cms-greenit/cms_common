@@ -23,4 +23,6 @@ public class GetBookingRemarkRequestDTO {
     private String timeId;
     @NotEmpty
     private String courseId;
+    @NotEmpty
+    private String agencyCode;
 }
