@@ -16,7 +16,6 @@ public class GetRealTimeListResponseDTO {
     private String timeSeq;
     private String timeId;
     private String courseId;
-    private String openType;
     private String agencyOpenYn;
     private String openAgencyCode;
     private Integer part;
