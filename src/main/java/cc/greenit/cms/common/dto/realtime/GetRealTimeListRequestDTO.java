@@ -14,4 +14,5 @@ public class GetRealTimeListRequestDTO {
     private String companyId;
     private String from;
     private String to;
+    private String datetimeGoe;
 }
