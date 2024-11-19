@@ -22,8 +22,10 @@ public class GetRealTimeListResponseDTO {
     private String openAgencyCode;
     private String closeAgencyCode;
     private Integer part;
+    private Integer hole;
     private Integer headcount;
     private String caddyType;
+    private String caddyUseYn;
     private String bookingOpenStartDatetime;
     private String bookingOpenEndDatetime;
     private String bookingCancelStartDatetime;
@@ -32,4 +34,5 @@ public class GetRealTimeListResponseDTO {
     private Integer greenFeeOrigin;
     private Integer greenFee;
     private Integer greenFeeSale;
+    private String prepaymentUseYn;
 }
