@@ -36,4 +36,5 @@ public class GetTimeListResponseDTO {
     private String agencyName;
     private String erpAssigneeName = null;
     private String erpAssigneePhone = null;
+    private String teamName;
 }

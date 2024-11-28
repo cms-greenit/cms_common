@@ -36,4 +36,6 @@ public class GetCheckInResponseDTO {
     private Integer agriculturalTax;
     private Integer otherTax;
     private Integer hole;
+    private String memberUkNo;
+    private String memberNo;
 }
