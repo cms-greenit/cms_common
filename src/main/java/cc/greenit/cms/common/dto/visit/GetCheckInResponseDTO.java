@@ -19,6 +19,7 @@ public class GetCheckInResponseDTO {
     private String erpCheckinName;
     private String erpCheckinGender;
     private String erpCheckinQrcode;
+    private String erpCheckinPhone;
     private String status;
     private String locker;
     private String bagName;
