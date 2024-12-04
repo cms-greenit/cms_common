@@ -38,21 +38,21 @@ public class PostReservationRequestDTO {
     private String memberGender;
     @Size(max = 50)
     private String remark;
+    private String agencyName;
 
     @Builder
-    public PostReservationRequestDTO(String companyId, String dateId, String timeId, String courseId,
-                                     String timeSeq, String agencyCode, Integer person, String memberName,
-                                     String memberPhone, String memberGender, String remark) {
-        this.companyId = companyId;
-        this.dateId = dateId;
-        this.timeId = timeId;
-        this.courseId = courseId;
-        this.timeSeq = timeSeq;
-        this.agencyCode = agencyCode;
-        this.person = person;
-        this.memberName = memberName;
-        this.memberPhone = memberPhone;
+    public PostReservationRequestDTO(String companyId, String dateId, String courseId, String timeId, String timeSeq, String agencyCode, Integer person, String memberName, String memberPhone, String memberGender, String remark, String agencyName) {
+        this.companyId    = companyId;
+        this.dateId       = dateId;
+        this.courseId     = courseId;
+        this.timeId       = timeId;
+        this.timeSeq      = timeSeq;
+        this.agencyCode   = agencyCode;
+        this.person       = person;
+        this.memberName   = memberName;
+        this.memberPhone  = memberPhone;
         this.memberGender = memberGender;
-        this.remark = remark;
+        this.remark       = remark;
+        this.agencyName   = agencyName;
     }
 }
