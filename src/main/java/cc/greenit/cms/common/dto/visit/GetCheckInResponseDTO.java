@@ -39,4 +39,5 @@ public class GetCheckInResponseDTO {
     private Integer hole;
     private String memberUkNo;
     private String memberNo;
+    private String caddyYn;
 }
