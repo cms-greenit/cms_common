@@ -64,6 +64,8 @@ public enum ErrorCode {
     MONTH_RESERVATION_EXCEEDED(400, "B034", "해당 월 예약횟수를 모두 사용하였습니다."),
     DAY_RESERVATION_EXCEEDED(400, "B035", "해당 일 예약횟수를 모두 사용하였습니다."),
     RESERVATION_EXCEEDED(400, "B036", "예약횟수를 모두 사용하였습니다."),
+    ALREADY_COMP_TIME(400, "B037", "이미 등록 된 컴프 타임 입니다."),
+    COMP_TIME_NOT_FOUND(400,  "B038", "컴프 타임을 찾을 수 없습니다."),
 
     CHECKIN_SETTING_ERROR(400, "V001", "체크인 설정 오류"),
     LOCKER_SETTING_ERROR(400, "V002", "락커 설정 오류"),
