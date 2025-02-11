@@ -31,6 +31,7 @@ public class GetTimeListResponseDTO {
     private String isErpBlock;
     private String isErpEmpty;
     private String isErpRainOut;
+    private String isSelfCartYn;
     // HOMEPAGE, TEL, GOLAGA, OTHER
     private String agencyType;
     private String agencyName;
