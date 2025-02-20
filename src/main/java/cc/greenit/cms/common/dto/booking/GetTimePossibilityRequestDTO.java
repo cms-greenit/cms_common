@@ -24,13 +24,15 @@ public class GetTimePossibilityRequestDTO {
     private String courseId;
 
     private String timeSeq;
+    private String agencyCode;
 
     @Builder
-    public GetTimePossibilityRequestDTO(String companyId, String dateId, String timeId, String courseId, String timeSeq) {
+    public GetTimePossibilityRequestDTO(String companyId, String dateId, String timeId, String courseId, String timeSeq, String agencyCode) {
         this.companyId = companyId;
         this.dateId = dateId;
         this.timeId = timeId;
         this.courseId = courseId;
         this.timeSeq = timeSeq;
+        this.agencyCode = agencyCode;
     }
 }
