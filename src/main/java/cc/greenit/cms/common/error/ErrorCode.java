@@ -82,6 +82,7 @@ public enum ErrorCode {
     CHECKIN_IMPOSSIBLE_AGENCY(400, "V013", "체크인 불가능한 예약매체 입니다."),
     MISMATCH_TIME(400, "V014", "타임이 일치하지 않습니다."),
     ALREADY_ISSUED_LOCKER(400, "V015", "락커가 이미 존재합니다."),
+    CHECKIN_IMPOSSIBLE_POLICY(400, "V016", "셀프체크인 정책에 부합하지 않는 티타임 입니다."),
     ADMIN_USER_ALREADY_EXISTS(409, "AU01", "존재하는 관리자입니다."),
     ADMIN_USER_NOT_FOUND(404, "AU02", "존재하지 않는 관리자입니다."),
     ADMIN_USER_INCORRECT_PW(409, "AU03", "비밀번호가 일치하지 않습니다."),
