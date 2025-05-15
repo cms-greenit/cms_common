@@ -29,6 +29,7 @@ public class DeleteReservationRequestDTO {
     private String agencyCode;
     @Size(max = 50)
     private String reason;
+    private String isAdmin;
 
     @Builder
     public DeleteReservationRequestDTO(String companyId, String dateId, String timeId, String courseId, String timeSeq, String agencyCode, String rsvNo, String reason) {
