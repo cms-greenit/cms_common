@@ -2,7 +2,7 @@ name: Deploy to Nexus
 
 on:
   push:
-    branches: [ "feature/nexus" ]
+    branches: [ "master" ]
 
 jobs:
   deploy:
