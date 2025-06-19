@@ -23,9 +23,9 @@ public class PatchBookingBookerInfoRequestDTO {
     private String timeId;
     @NotEmpty
     private String courseId;
-    @NotEmpty
+
     private String memberName;
-    @NotEmpty
+
     private String memberPhone;
     @NotEmpty
     private String agencyCode;
