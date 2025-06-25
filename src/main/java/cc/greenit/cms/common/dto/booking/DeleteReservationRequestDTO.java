@@ -30,9 +30,10 @@ public class DeleteReservationRequestDTO {
     @Size(max = 50)
     private String reason;
     private String isAdmin;
+    private String agencyName;
 
     @Builder
-    public DeleteReservationRequestDTO(String companyId, String dateId, String timeId, String courseId, String timeSeq, String agencyCode, String rsvNo, String reason) {
+    public DeleteReservationRequestDTO(String companyId, String dateId, String timeId, String courseId, String timeSeq, String agencyCode, String rsvNo, String reason, String agencyName) {
         this.companyId = companyId;
         this.dateId = dateId;
         this.timeId = timeId;
@@ -41,5 +42,6 @@ public class DeleteReservationRequestDTO {
         this.rsvNo = rsvNo;
         this.agencyCode = agencyCode;
         this.reason = reason;
+        this.agencyName = agencyName;
     }
 }
