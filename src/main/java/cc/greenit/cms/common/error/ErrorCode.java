@@ -29,6 +29,7 @@ public enum ErrorCode {
     PERMISSION_DENIED(403, "C014", "접근 권한이 없습니다."),
     FILE_NOT_FOUND(400, "C015", "파일이 존재하지 않습니다."),
     UNSUPPORTED_FILE_TYPE(400, "C016", "허용되지 않는 파일 형식입니다."),
+    FILE_UPLOAD_ERROR(400, "C017", "파일 업로드 중 문제가 발생했습니다."),
     INTERNAL_SERVER_ERROR(500, "C100", "Server Error"),
 
 
