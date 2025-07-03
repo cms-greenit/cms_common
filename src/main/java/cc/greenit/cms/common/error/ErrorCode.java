@@ -27,7 +27,10 @@ public enum ErrorCode {
     EXPIRED_TOKEN(403, "C012", "만료된 토큰 입니다."),
     NO_REFRESH_TOKEN(403,"C013", "토큰이 존재하지않습니다"),
     PERMISSION_DENIED(403, "C014", "접근 권한이 없습니다."),
+    FILE_NOT_FOUND(400, "C015", "파일이 존재하지 않습니다."),
+    UNSUPPORTED_FILE_TYPE(400, "C016", "허용되지 않는 파일 형식입니다."),
     INTERNAL_SERVER_ERROR(500, "C100", "Server Error"),
+
 
     TIME_NOT_FOUND(400, "B001", "예약 타임이 존재하지 않습니다."),
     BOOKING_NOT_POSSIBLE(400, "B002", "예약할 수 없는 타임입니다."),
