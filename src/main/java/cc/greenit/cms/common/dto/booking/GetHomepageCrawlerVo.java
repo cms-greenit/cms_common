@@ -16,4 +16,5 @@ public class GetHomepageCrawlerVo {
     private String courseId;
     private String timeId;
     private Integer greenFee;
+    private Integer hole;
 }
