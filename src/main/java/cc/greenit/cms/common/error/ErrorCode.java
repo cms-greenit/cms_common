@@ -72,6 +72,7 @@ public enum ErrorCode {
     COMP_TIME_NOT_FOUND(400,  "B038", "컴프 타임을 찾을 수 없습니다."),
     POLICY_NOT_FOUND(400, "B039", "정책을 찾을 수 없습니다."),
     UPDATE_TIME_EXPIRED(400, "B040", "수정 가능한 시간을 초과했습니다."),
+    USED_CONDITION(400, "B041", "사용 중인 조건 입니다."),
 
     CHECKIN_SETTING_ERROR(400, "V001", "체크인 설정 오류"),
     LOCKER_SETTING_ERROR(400, "V002", "락커 설정 오류"),
