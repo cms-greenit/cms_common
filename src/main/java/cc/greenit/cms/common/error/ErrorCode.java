@@ -73,6 +73,8 @@ public enum ErrorCode {
     POLICY_NOT_FOUND(400, "B039", "정책을 찾을 수 없습니다."),
     UPDATE_TIME_EXPIRED(400, "B040", "수정 가능한 시간을 초과했습니다."),
     USED_CONDITION(400, "B041", "사용 중인 조건 입니다."),
+    USED_COMPANY_GROUP_NAME(400, "B042", "사용 중인 그룹명 입니다."),
+    DUPLICATION_COMPANY(400, "B043", "이미 등록한 골프장 입니다."),
 
     CHECKIN_SETTING_ERROR(400, "V001", "체크인 설정 오류"),
     LOCKER_SETTING_ERROR(400, "V002", "락커 설정 오류"),
