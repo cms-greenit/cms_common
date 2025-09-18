@@ -34,6 +34,5 @@ public class GetTimeListGreenFeeRequestDTO implements TimeListRequestAdapter {
     private String dateIdLike;
     @Size(min = 14, max = 14)
     private String datetimeGoe;
-    @Size(min = 14, max = 14)
     private String batchType;
 }
