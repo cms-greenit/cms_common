@@ -41,9 +41,10 @@ public class PostReservationRequestDTO {
     private String agencyName;
     private Integer reservationGreenFee;
     private String isPrePayment;
+    private String visitPolicy;
 
     @Builder
-    public PostReservationRequestDTO(String companyId, String dateId, String courseId, String timeId, String timeSeq, String agencyCode, Integer person, String memberName, String memberPhone, String memberGender, String remark, String agencyName, Integer reservationGreenFee, String isPrePayment) {
+    public PostReservationRequestDTO(String companyId, String dateId, String courseId, String timeId, String timeSeq, String agencyCode, Integer person, String memberName, String memberPhone, String memberGender, String remark, String agencyName, Integer reservationGreenFee, String isPrePayment, String visitPolicy) {
         this.companyId           = companyId;
         this.dateId              = dateId;
         this.courseId            = courseId;
@@ -58,5 +59,6 @@ public class PostReservationRequestDTO {
         this.agencyName          = agencyName;
         this.reservationGreenFee = reservationGreenFee;
         this.isPrePayment        = isPrePayment;
+        this.visitPolicy         = visitPolicy;
     }
 }
