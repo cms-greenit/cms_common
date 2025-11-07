@@ -77,6 +77,7 @@ public enum ErrorCode {
     DUPLICATION_COMPANY(400, "B043", "이미 등록한 골프장 입니다."),
     DUPLICATION_HOLIDAY(400, "B044", "이미 등록한 공휴일 입니다."),
     ALREADY_SELF_TIME(400, "B045", "이미 등록된 수동 타임입니다."),
+    SELF_TIME_NOT_ALLOWED(400, "B046", "수동타임 업장이 아닙니다."),
 
     CHECKIN_SETTING_ERROR(400, "V001", "체크인 설정 오류"),
     LOCKER_SETTING_ERROR(400, "V002", "락커 설정 오류"),
