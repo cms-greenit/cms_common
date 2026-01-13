@@ -31,6 +31,7 @@ public class GetScoreResponseDTO {
         private String checkinId;
         private String name;
         private String phone;
+        private String gender;
         private String teeingGround;
         private Integer score1;
         private Integer score2;
