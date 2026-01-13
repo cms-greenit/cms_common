@@ -17,6 +17,8 @@ public class GetScoreRequestDTO {
     @NotEmpty
     private String companyId;
     @Size(min = 8, max = 8)
+    private String dateId;
+    @Size(min = 8, max = 8)
     private String dateIdBetweenFrom;
     @Size(min = 8, max = 8)
     private String dateIdBetweenTo;
