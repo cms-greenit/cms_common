@@ -1,6 +1,7 @@
 package cc.greenit.cms.common.dto.score;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 
 import java.util.List;
@@ -25,6 +26,7 @@ public class GetScoreResponseDTO {
 
     @Data
     @AllArgsConstructor
+    @Builder
     public static class Score {
         private String checkinId;
         private String name;
