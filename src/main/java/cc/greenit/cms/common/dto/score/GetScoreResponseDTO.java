@@ -27,8 +27,8 @@ public class GetScoreResponseDTO {
     @AllArgsConstructor
     public static class Score {
         private String checkinId;
-        private String memberName;
-        private String memberPhone;
+        private String name;
+        private String phone;
         private String teeingGround;
         private Integer score1;
         private Integer score2;
