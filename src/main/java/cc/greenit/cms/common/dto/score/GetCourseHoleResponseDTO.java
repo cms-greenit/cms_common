@@ -13,6 +13,6 @@ import lombok.Data;
 public class GetCourseHoleResponseDTO {
     private String companyId;
     private String courseId;
-    private Integer number;
+    private Integer holeNumber;
     private Integer par;
 }
