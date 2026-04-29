@@ -114,6 +114,11 @@ public enum ErrorCode {
     AGENCY_KEY_NOT_FOUND(404, "A023", "존재하지 않는 대행사 키입니다."),
     ADMIN_CM_ALREADY_EXISTS(409, "ACM01", "에이전시 - 골프장 이미 매핑되어 있습니다."),
     ADMIN_CM_NOT_FOUND(404, "ACM02", "No code mapper detected."),
+    VIOLATION_BASIC_POLICY_BOOKING(400, "P001", "BASIC_POLICY - 예약 제한"),
+    VIOLATION_BASIC_POLICY_CHECK_IN(400, "P002", "BASIC_POLICY - 체크인 제한"),
+    VIOLATION_BASIC_POLICY_JOIN_REMARK(400, "P003", "BASIC_POLICY - 조인 비고 제한 "),
+    VIOLATION_BASIC_POLICY_COMP(400, "P004", "BASIC_POLICY - 컴프 제한"),
+    VIOLATION_BASIC_POLICY_MIN_PERSON(400, "P005", "BASIC_POLICY - 최소 인원 위배"),
 
     ;
 
