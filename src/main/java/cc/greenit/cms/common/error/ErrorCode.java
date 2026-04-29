@@ -119,6 +119,7 @@ public enum ErrorCode {
     VIOLATION_BASIC_POLICY_JOIN_REMARK(400, "P003", "BASIC_POLICY - 조인 비고 제한 "),
     VIOLATION_BASIC_POLICY_COMP(400, "P004", "BASIC_POLICY - 컴프 제한"),
     VIOLATION_BASIC_POLICY_MIN_PERSON(400, "P005", "BASIC_POLICY - 최소 인원 위배"),
+    VIOLATION_TIME_PREPAYMENT(400, "P006", "타임시트와 예약요청의 선불구분이 미일치 합니다."),
 
     ;
 
