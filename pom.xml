@@ -37,6 +37,12 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 		</dependency>
+		<dependency>
+			<!-- 테스트 전용: 레거시 노드(Spring Boot)와 같은 방식으로 DTO 역직렬화를 확인한다 -->
+			<groupId>com.fasterxml.jackson.module</groupId>
+			<artifactId>jackson-module-parameter-names</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<distributionManagement>

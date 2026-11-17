@@ -6,6 +6,7 @@ import lombok.Data;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.util.Map;
 
 /**
  * packageName    : cc.greenit.cms.domain.booking.dto
@@ -42,6 +43,16 @@ public class PostReservationRequestDTO {
     private Integer reservationGreenFee;
     private String isPrePayment;
     private String visitPolicy;
+
+    /*
+     * central 비고 권한(remark-central-authority-adr). 생성자에 넣지 않는다 — 기존 호출부와 JSON 역직렬화가
+     * 그대로 유지되고, 값은 setter 로 채워진다. remarkAuthority 가 "CENTRAL" 일 때만 쓴다(CentralRemarkSupport).
+     * remarkMain/remarkSub: null = 그 칸을 건드리지 않음, "" = 빈값 기록.
+     */
+    private String remarkAuthority;
+    private String remarkMain;
+    private String remarkSub;
+    private Map<String, String> remarkCaddyLabels;
 
     @Builder
     public PostReservationRequestDTO(String companyId, String dateId, String courseId, String timeId, String timeSeq, String agencyCode, Integer person, String memberName, String memberPhone, String memberGender, String remark, String agencyName, Integer reservationGreenFee, String isPrePayment, String visitPolicy) {
