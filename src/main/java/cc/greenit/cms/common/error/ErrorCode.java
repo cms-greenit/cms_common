@@ -78,6 +78,9 @@ public enum ErrorCode {
     DUPLICATION_HOLIDAY(400, "B044", "이미 등록한 공휴일 입니다."),
     ALREADY_SELF_TIME(400, "B045", "이미 등록된 수동 타임입니다."),
     SELF_TIME_NOT_ALLOWED(400, "B046", "수동타임 업장이 아닙니다."),
+    // B047·B048 은 node_api 가 쓴다(겹치지 않게 비워 둠)
+    ALREADY_CANCELLED_BOOKING(400, "B049", "이미 취소된 예약입니다."),
+    CANCEL_RESULT_UNCONFIRMED(400, "B050", "취소 처리 결과를 확인 중입니다. 잠시 후 예약 조회로 확인해 주세요."),
 
     CHECKIN_SETTING_ERROR(400, "V001", "체크인 설정 오류"),
     LOCKER_SETTING_ERROR(400, "V002", "락커 설정 오류"),
